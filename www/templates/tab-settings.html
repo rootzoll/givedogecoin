@@ -1,0 +1,37 @@
+<ion-view view-title="Settings">
+  <ion-content>
+    <ion-list>
+
+<ion-item class="item-toggle">
+  Notification
+  <label class="toggle">
+    <input type="checkbox" ng-model="notificationActive">
+    <div class="track">
+      <div class="handle"></div>
+    </div>
+  </label>
+</ion-item>
+
+<label class="item item-input item-select">
+      <div class="input-label">
+          Period
+      </div>
+      <select>
+          <option>Once a Week</option>
+          <option selected>Once a Month</option>
+          <option>Once a Year</option>
+      </select>
+</label>
+
+<label class="item item-input item-stacked-label">
+      <span class="input-label">Amount {{amount}} Doge</span>
+      <div class="range">
+      <div class="icon ion-minus-round"></div>
+      <input type="range" min="10" max="10000" name="amount" ng-model="amount">
+      <div class="icon ion-plus-round"></div>
+      </div>
+</label>
+
+    </ion-list>
+  </ion-content>
+</ion-view>

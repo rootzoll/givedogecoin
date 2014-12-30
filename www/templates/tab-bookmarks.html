@@ -1,0 +1,20 @@
+<ion-view view-title="Your Donation Bookmarks">
+  <ion-content>
+    <ion-list class="bookmark-list">
+      <ion-item class="item-avatar" type="item-text-wrap">
+        <div class="bookmark-title">DogeRain App</div>
+        <div class="bookmark-addr">D7wvFNdq6FUiRiWKxpCHC9FS4hkAdngvo9</div>
+        <table width="100%"><tr>
+            <td>
+                <rating ng-model="rate" max="max"></rating>
+            </td>
+            <td>
+               <div ng-click="delete()">
+                   <span class="icon ion-minus-circled"></span>
+               </div>
+            </td>
+        </tr></table>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

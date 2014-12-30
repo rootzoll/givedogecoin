@@ -1,0 +1,40 @@
+/* Empty. Add your own CSS if you like */
+
+.tab-nav {
+    background-color: orange;
+}
+
+ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-color-active-positive .tab-item.activated {
+    color: darkred;
+}
+
+.bar.bar-stable {
+    background-color: orange;
+}
+
+.button-orange {
+    background-color: orange;
+}
+
+.bookmark-list li {
+    display: inline;
+    font-size: 200%;
+}
+
+.bookmark-title {
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+
+.bookmark-addr {
+    padding-top: 2px;
+    margin-bottom: -7px;
+    font-size: 7pt;
+}
+
+.item-avatar, .item-avatar .item-content, .item-avatar-left, .item-avatar-left .item-content {
+    padding-left: 18px;
+    min-height: none;
+}
+
